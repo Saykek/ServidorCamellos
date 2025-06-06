@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Ruta base del proyecto: directorio actual donde ejecutes el script
-BASE="$(pwd)"
+BASE="$(cd .. && pwd)"
 
-SERVIDOR="$BASE/servidorcamellos/target/classes"
-CLIENTE="$BASE/clientecamellos/target/classes"
+SERVIDOR="$BASE/ServidorCamellos/carreracamellos"
+CLIENTE="$BASE/ClienteCamellos/clientecarreracamellos"
 
 # Función para abrir una terminal y ejecutar comando según SO
 abrir_terminal() {
