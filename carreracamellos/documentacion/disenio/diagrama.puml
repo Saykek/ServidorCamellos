@@ -1,0 +1,47 @@
+```plantuml
+
+@startuml
+skinparam componentStyle rectangle
+allowmixing
+
+
+
+
+' Componentes
+artifact "Documentos" as Documentos {
+    interface "GeneradorDocumento" as GeneradorDocumento
+    class GeneradorCertificadoMd
+    class GeneradorPDFDocker
+    class GuardarHistorial
+}
+
+artifact "Modelo" as Modelo {
+    class Partida
+    class GestorPartida
+    class Jugador
+    class Resultado
+    class Servidor
+    interface "Jugable" as Jugable
+
+}
+artifact "Utilidades" as utilidades {
+    class ConexionCliente
+    class LogCamellos
+}
+
+artifact "Controlador" as Controlador {
+    class ControladorServidor
+    
+}
+
+
+
+Modelo --> Jugable
+Modelo --> utilidades
+Modelo --> Documentos
+Controlador --> Modelo
+Controlador --> utilidades
+
+
+
+@enduml

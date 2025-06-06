@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: es.etg.smr.carreracamellos.servidor.mvc.documentos.GeneradorPDFDockerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.135 s - in es.etg.smr.carreracamellos.servidor.mvc.documentos.GeneradorPDFDockerTest
