@@ -1,6 +1,14 @@
 # Carrera de Camellos de Sara Martínez
 
-## Repositorio Github https://github.com/Saykek/AppCamellos.git
+## Repositorio Github
+Primeramente hice dos proyectos separados en un solo github: https://github.com/Saykek/AppCamellos.git
+
+Pero en la última clase nos dijiste que deberían ser dos github, aquí pongo el nuevo enlace. Ocurre un problema ( no sé si será solo en mi ordenador, he probado en la máquina virtual y no da error.) El error que me muestra el cliente es subrayándose todo lo relacionado con javaFX, funciona perfectamente, pero es como si los import no los reconociera(cosa que antes si), ya te digo que en la máquina virtual ha salido al principio y al cargar se ha quitado. Por si acaso te dejo también el enlace de arriba.
+
+- github Servidor:
+ https://github.com/Saykek/ServidorCamellos.git
+- github Cliente:
+  https://github.com/Saykek/ClienteCamellos.git
 
 ## - Análisis y Prototipo
 
@@ -133,7 +141,11 @@ Se ha diseñado un prototipo básico de la pantalla,arriba parte central tenemos
 
 ## Plan de Pruebas
 
+La evidencia de pruebas podrá verse pinchando en la imagen, o también adjunto en una carpeta llamada pruebas dentro de markdown las fotos.
+
 ### Pruebas Manuales
+
+La evidencia de pruebas podrá verse pinchando en la imagen, o también adjunto en una carpeta llamada pruebas dentro de markdown las fotos.
 
 #### 🔹 Pruebas de Funcionalidad
 
